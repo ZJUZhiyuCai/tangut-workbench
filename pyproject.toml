@@ -13,7 +13,7 @@ authors = [{name = "Tangut Workbench contributors"}]
 dependencies = ["jsonschema>=4.23,<5"]
 
 [project.optional-dependencies]
-cldf = ["pycldf>=1.40,<2"]
+cldf = ["pycldf>=1.40,<3"]
 dev = ["ruff>=0.11,<1"]
 
 [project.scripts]
