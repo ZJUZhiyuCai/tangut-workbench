@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tangut-workbench"
+version = "0.1.0"
+description = "Source-linked Tangut lexicography and manuscript research"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Tangut Workbench contributors"}]
+dependencies = ["jsonschema>=4.23,<5"]
+
+[project.optional-dependencies]
+cldf = ["pycldf>=1.40,<2"]
+dev = ["ruff>=0.11,<1"]
+
+[project.scripts]
+tangut = "tangut_workbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

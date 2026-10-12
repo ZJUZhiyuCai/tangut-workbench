@@ -1,0 +1,15 @@
+name: 工具或网页问题
+description: 报告检索、数据校验、导出或显示问题
+title: '[问题] '
+body:
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 怎样复现
+      description: 请给出命令或检索词、实际结果、期望结果和版本号；不要包含密钥或个人信息。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 浏览器或 Python 版本

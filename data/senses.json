@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex-17788-01",
+    "entry_id": "lex-17788",
+    "gloss_zh": "葡萄",
+    "gloss_en": "grape",
+    "status": "source_checked",
+    "evidence": [
+      {
+        "source_id": "li2012",
+        "locator": "p.513, entry 4267",
+        "kind": "dictionary_scan",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "note": "这里只确认该字在李2012字典中的这一义项；未据此确认 Inv.5875 的对应字形，也不排除其他文献中的其他用法。",
+    "independent_reviews": [],
+    "contribution": "AI-assisted source comparison; not an independent expert review",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "lex-177A4-01",
+    "entry_id": "lex-177A4",
+    "gloss_zh": "苗",
+    "gloss_en": "seedling",
+    "status": "source_checked",
+    "evidence": [
+      {
+        "source_id": "li2012",
+        "locator": "p.513, entry 4268",
+        "kind": "dictionary_scan",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "note": "与𗞈形近。韩词典网页另列的动词义尚未原页核对，未合并为此义项。",
+    "independent_reviews": [],
+    "contribution": "AI-assisted source comparison; not an independent expert review",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "lex-1763A-01",
+    "entry_id": "lex-1763A",
+    "gloss_zh": "明（音译用字）",
+    "gloss_en": "phonetic transcription of Chinese ming",
+    "status": "source_reported",
+    "evidence": [
+      {
+        "source_id": "ccamc201",
+        "locator": "L0201; Han 1493, vol.3 p.3",
+        "kind": "web_transcription",
+        "inspection": "transcription_only",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "note": "这是网页列出的音译用例；不能据此直接确立草名“蓂荚”。",
+    "independent_reviews": [],
+    "contribution": "AI-assisted source comparison; not an independent expert review",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "lex-1785D-01",
+    "entry_id": "lex-1785D",
+    "gloss_zh": "吉、汲、桔（音译用字）",
+    "gloss_en": "phonetic transcriptions of Chinese ji",
+    "status": "source_reported",
+    "evidence": [
+      {
+        "source_id": "ccamc4620",
+        "locator": "L4620; Han 2034, vol.3 p.295",
+        "kind": "web_transcription",
+        "inspection": "transcription_only",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "note": "数个汉字是网页列举的音译对应，并非三个独立西夏词义；未收入无来源标记的拟音。",
+    "independent_reviews": [],
+    "contribution": "AI-assisted source comparison; not an independent expert review",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "lex-17730-01",
+    "entry_id": "lex-17730",
+    "gloss_zh": "宗（音译用字）",
+    "gloss_en": "phonetic transcription of Chinese zong",
+    "status": "source_reported",
+    "evidence": [
+      {
+        "source_id": "ccamc4305",
+        "locator": "L4305; Han 1742, vol.3 p.132; vocabulary index vol.3 p.367",
+        "kind": "web_transcription",
+        "inspection": "transcription_only",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "note": "嗣宗词例的页码指词典页，不是写本叶行；字形尚未与 G1 独立匹配。",
+    "independent_reviews": [],
+    "contribution": "AI-assisted source comparison; not an independent expert review",
+    "license": "CC-BY-4.0"
+  }
+]

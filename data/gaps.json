@@ -1,0 +1,74 @@
+[
+  {
+    "id": "inv5875-G1",
+    "document_id": "inv5875",
+    "locus": "叶1：B02之后至B03之前",
+    "status": "unread",
+    "observation": "未释；尚无独立的人名或完整句读",
+    "next_test": "按同手字形建立字例，再检验阮籍及竞争典故；不得先把候选故事填成译文",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "p.10; fig.1",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "inv5875-G2",
+    "document_id": "inv5875",
+    "locus": "叶3：B14之后的末两行（依刊文叙述）",
+    "status": "unread",
+    "observation": "未释；工作起点收窄至叶3第7栏约y458，内部句界未定",
+    "next_test": "据 data/passages.json 中 inv5875-B14-* 的定位记录检查重文展开；逐字核未译区，不按排印字数等距分格。",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "p.25; fig.3",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "inv5875-G3",
+    "document_id": "inv5875",
+    "locus": "叶5左上及叶6右上等相关残文",
+    "status": "unread",
+    "observation": "仅有前人指出的舜与“四知”线索，非本次发现",
+    "next_test": "分别记录纸损与字在未识；不得以典故篇幅推定缺字数",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "p.34; figs.5–6",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "inv5875-G4",
+    "document_id": "inv5875",
+    "locus": "叶7-10及篇末附文",
+    "status": "unread",
+    "observation": "未做直接图像释读；篇末附文性质亦未定",
+    "next_test": "补齐图像及页序后，单独划分书手、正文与附文",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "p.36",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "inv5875-H1",
+    "claim": "叶3第2-3行的音译草名𗘺𗡝拟释为“蓂荚”",
+    "level": "有较强语境支持的拟释；未获专家复核，未证明全球首发",
+    "existing_reading": "Nie 2020 p.19 n.54: mjij kja；未定其所指",
+    "unresolved": [
+      "李2012页513原页确释L4267为葡萄；韩词典网页转录存在待核的“卜”项。既刊动词释义仍未解决。",
+      "mjij kja与中古“蓂莢”的对应尚未完成借词音系论证",
+      "未读遍2021年九卷《西夏文词典》及封闭数据库，首发性待核"
+    ],
+    "manuscript_text_changed": false,
+    "document_id": "inv5875",
+    "status": "proposed",
+    "related_character_ids": [
+      "U1763A",
+      "U1785D",
+      "U17788"
+    ],
+    "related_sense_ids": [
+      "lex-17788-01"
+    ],
+    "gap_ids": [],
+    "rationale": [
+      "草名的两个音节可与蓂荚作候选对应",
+      "其后𗉝𗃵𗙼𘞵可核为草、殿、前、生长这一语义组合",
+      "《宋书》卷29及《艺文类聚》卷4引《帝王世纪》记阶前生草及按月生落",
+      "韩词典网页所示𗡝的吉、汲、桔等音译用例，可供进一步借音论证；未替代纸本复核。"
+    ],
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "p.19 n.54; B10",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      },
+      {
+        "source_id": "songshu29",
+        "locator": "符瑞下：蓂荚条",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      },
+      {
+        "source_id": "yiwen4",
+        "locator": "岁时部：月晦条",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "accepted": false,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "inv5875-H2",
+    "claim": "叶1未释三对句中的晋人母丧故事可能与阮籍围棋有关",
+    "level": "典故检索线索，不是字形释读结果",
+    "unresolved": [
+      "未在5875原件中独立认出𗤩𘄴或棋、赌等构成句义的关键字",
+      "“母将死”“母终”“居丧”的叙述不可混为一谈",
+      "《晋书》同卷阮咸也有母丧越礼故事，不能靠母丧二字排他认定",
+      "第三字有子／兹形类候选；不能强行与嗣（sə）借字、宗字相合。字号路线也未通过字形检验。"
+    ],
+    "manuscript_text_changed": false,
+    "document_id": "inv5875",
+    "status": "proposed",
+    "related_character_ids": [
+      "U17730"
+    ],
+    "related_sense_ids": [
+      "lex-17730-01"
+    ],
+    "gap_ids": [
+      "inv5875-G1"
+    ],
+    "rationale": [
+      "《晋书》卷49阮籍传有母终仍与人围棋的相似情节",
+      "《类林》数字工作文本中可检出阮籍音译𗤩𘄴，供比对使用",
+      "新增B06同手字例对照；另查CCAMC嗣宗词例索引，限于字典网页。"
+    ],
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "p.10; fig.1",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      },
+      {
+        "source_id": "jinshu49",
+        "locator": "阮籍、阮咸传",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      },
+      {
+        "source_id": "ccamc4305",
+        "locator": "嗣宗词例索引：卷3页367",
+        "kind": "web_transcription",
+        "inspection": "transcription_only",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "accepted": false,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "inv5875-H3",
+    "claim": "B10日后一字可增列𗞤（L4268，苗／生）作为形近校字候选",
+    "level": "未采纳的校字候选，不是新增释读",
+    "unresolved": [
+      "写本下部左侧连笔，尚不能排他区分两字",
+      "未找到同手同位置的𘤆构件控制字例；不能用语境补造笔画",
+      "韩词典动词义尚须原页和例句支持"
+    ],
+    "manuscript_text_changed": false,
+    "document_id": "inv5875",
+    "status": "proposed",
+    "related_character_ids": [
+      "U17788",
+      "U177A4"
+    ],
+    "related_sense_ids": [
+      "lex-17788-01",
+      "lex-177A4-01"
+    ],
+    "gap_ids": [],
+    "rationale": [
+      "原页第4268条与第4267条相邻，形近；词义与植物语境可以联系",
+      "韩词典网页在𗞤下另列活、生、芽"
+    ],
+    "evidence": [
+      {
+        "source_id": "li2012",
+        "locator": "p.513, entries 4267–4268",
+        "kind": "dictionary_scan",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      },
+      {
+        "source_id": "ccamc4268",
+        "locator": "Han 1855, vol.3 p.193",
+        "kind": "web_transcription",
+        "inspection": "transcription_only",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "accepted": false,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "inv5875-W1",
+    "claim": "Or.12380/3494是待取图核查的同题残片线索",
+    "level": "目录线索；没有新发现异本的结论",
+    "unresolved": [
+      "未见原件图像",
+      "未建立与5875的重文或版本关系",
+      "目录原始2024表尚未直接取得"
+    ],
+    "manuscript_text_changed": false,
+    "document_id": "inv5875",
+    "status": "proposed",
+    "related_character_ids": [],
+    "related_sense_ids": [],
+    "gap_ids": [],
+    "rationale": [
+      "CCAMC目录题名为太宗择要文，英藏4册198页",
+      "IDP确认该馆藏编号存在"
+    ],
+    "evidence": [
+      {
+        "source_id": "catalogue2024",
+        "locator": "太宗检索表：英藏4册198页",
+        "kind": "catalogue",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      },
+      {
+        "source_id": "idp3494",
+        "locator": "Or.12380/3494",
+        "kind": "catalogue",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "accepted": false,
+    "license": "CC-BY-4.0"
+  }
+]

@@ -1,0 +1,46 @@
+name: 补充或修正证据
+description: 为词条、写本定位或研究假说提供可核查材料
+title: '[证据] '
+body:
+  - type: input
+    id: record
+    attributes:
+      label: 对应记录 ID 或字形
+      placeholder: lex-17788-01 / inv5875-H3 / 新词条
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 来源与精确位置
+      description: 书名、版本、卷页、条目编号、链接；不要上传无权公开的整页或整本材料。
+    validations:
+      required: true
+  - type: dropdown
+    id: inspection
+    attributes:
+      label: 实际核对层级
+      options:
+        - 已直接对照原页或原件图像
+        - 只核网页转录或他人转引
+        - 目前是检索线索，尚未核对
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: 直接观察与建议改动
+      description: 将看到的材料、推论和仍不确定之处分开说明；如使用 AI，请注明步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 竞争解释或可能反证
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: 公开范围
+      options:
+        - label: 我只提交有权公开的内容，并保留来源署名。
+          required: true

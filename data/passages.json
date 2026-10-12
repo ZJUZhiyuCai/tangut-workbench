@@ -1,0 +1,206 @@
+[
+  {
+    "id": "inv5875-B14-11-12",
+    "document_id": "inv5875",
+    "locus": "folio 3, column 6; B14-11/12",
+    "transcription": "𗫔𗫔",
+    "transcription_status": "published_transcription",
+    "translation_zh": null,
+    "translation_status": "untranslated",
+    "novelty": "alignment_only",
+    "image_reference": "Nie2020 fig.3; extracted folio3_part1 image; image not redistributed",
+    "image_dimensions": [
+      1511,
+      2053
+    ],
+    "coordinate_system": "pixels; origin upper left; [left,top,right,bottom)",
+    "box": [
+      260,
+      615,
+      435,
+      789
+    ],
+    "note": "衆衆：一字加下接折笔，依既刊重文展开。窗口可能保留邻字墨迹，并非单字分割。",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "fig.3 (PDF page 18); printed p.24, B14",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "unit_type": "alignment_window"
+  },
+  {
+    "id": "inv5875-B14-23",
+    "document_id": "inv5875",
+    "locus": "folio 3, column 6; B14-23",
+    "transcription": "𗂸",
+    "transcription_status": "published_transcription",
+    "translation_zh": null,
+    "translation_status": "untranslated",
+    "novelty": "alignment_only",
+    "image_reference": "Nie2020 fig.3; extracted folio3_part1 image; image not redistributed",
+    "image_dimensions": [
+      1511,
+      2053
+    ],
+    "coordinate_system": "pixels; origin upper left; [left,top,right,bottom)",
+    "box": [
+      260,
+      1753,
+      440,
+      1860
+    ],
+    "note": "臣：段末连续字序。窗口可能保留邻字墨迹，并非单字分割。",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "fig.3 (PDF page 18); printed p.24, B14",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "unit_type": "alignment_window"
+  },
+  {
+    "id": "inv5875-B14-24",
+    "document_id": "inv5875",
+    "locus": "folio 3, column 6; B14-24",
+    "transcription": "𗂅",
+    "transcription_status": "published_transcription",
+    "translation_zh": null,
+    "translation_status": "untranslated",
+    "novelty": "alignment_only",
+    "image_reference": "Nie2020 fig.3; extracted folio3_part1 image; image not redistributed",
+    "image_dimensions": [
+      1511,
+      2053
+    ],
+    "coordinate_system": "pixels; origin upper left; [left,top,right,bottom)",
+    "box": [
+      260,
+      1845,
+      445,
+      1970
+    ],
+    "note": "宰：第六栏末。窗口可能保留邻字墨迹，并非单字分割。",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "fig.3 (PDF page 18); printed p.24, B14",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "unit_type": "alignment_window"
+  },
+  {
+    "id": "inv5875-B14-25-26",
+    "document_id": "inv5875",
+    "locus": "folio 3, column 7; B14-25/26",
+    "transcription": "𗫻𗫻",
+    "transcription_status": "published_transcription",
+    "translation_zh": null,
+    "translation_status": "untranslated",
+    "novelty": "alignment_only",
+    "image_reference": "Nie2020 fig.3; extracted folio3_part1 image; image not redistributed",
+    "image_dimensions": [
+      1511,
+      2053
+    ],
+    "coordinate_system": "pixels; origin upper left; [left,top,right,bottom)",
+    "box": [
+      130,
+      108,
+      295,
+      259
+    ],
+    "note": "居居：一字加下接折笔，依既刊重文展开。窗口可能保留邻字墨迹，并非单字分割。",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "fig.3 (PDF page 18); printed p.24, B14",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "unit_type": "alignment_window"
+  },
+  {
+    "id": "inv5875-B14-27",
+    "document_id": "inv5875",
+    "locus": "folio 3, column 7; B14-27",
+    "transcription": "𘘝",
+    "transcription_status": "published_transcription",
+    "translation_zh": null,
+    "translation_status": "untranslated",
+    "novelty": "alignment_only",
+    "image_reference": "Nie2020 fig.3; extracted folio3_part1 image; image not redistributed",
+    "image_dimensions": [
+      1511,
+      2053
+    ],
+    "coordinate_system": "pixels; origin upper left; [left,top,right,bottom)",
+    "box": [
+      130,
+      249,
+      295,
+      362
+    ],
+    "note": "教：第七栏上部。窗口可能保留邻字墨迹，并非单字分割。",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "fig.3 (PDF page 18); printed p.24, B14",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "unit_type": "alignment_window"
+  },
+  {
+    "id": "inv5875-B14-28",
+    "document_id": "inv5875",
+    "locus": "folio 3, column 7; B14-28",
+    "transcription": "𗟨",
+    "transcription_status": "published_transcription",
+    "translation_zh": null,
+    "translation_status": "untranslated",
+    "novelty": "alignment_only",
+    "image_reference": "Nie2020 fig.3; extracted folio3_part1 image; image not redistributed",
+    "image_dimensions": [
+      1511,
+      2053
+    ],
+    "coordinate_system": "pixels; origin upper left; [left,top,right,bottom)",
+    "box": [
+      130,
+      348,
+      295,
+      459
+    ],
+    "note": "取：既刊段的末字。窗口可能保留邻字墨迹，并非单字分割。",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "fig.3 (PDF page 18); printed p.24, B14",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "unit_type": "alignment_window"
+  }
+]

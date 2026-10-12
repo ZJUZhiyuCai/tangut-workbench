@@ -1,0 +1,19 @@
+[
+  {
+    "id": "inv5875",
+    "title": "太宗择要文",
+    "shelfmark": "IOM RAS, Inv.5875",
+    "description": "以聂鸿音2020年部分译读为基线的持续校读项目。尚无本项目新完成的整段译文。题名不证明唐太宗亲撰。",
+    "status": "in_progress",
+    "evidence": [
+      {
+        "source_id": "nie2020",
+        "locator": "pp.3–38; figs.1–6",
+        "kind": "published_edition",
+        "inspection": "direct",
+        "accessed": "2026-10-11"
+      }
+    ],
+    "license": "CC-BY-4.0"
+  }
+]

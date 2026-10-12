@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png binary
+*.ttf binary
+# Preserve the upstream bytes and their documented SHA256, including whitespace.
+licenses/*.txt -text -whitespace
+vendor/unicode/*.txt -text -whitespace

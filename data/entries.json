@@ -1,0 +1,42 @@
+[
+  {
+    "id": "lex-17788",
+    "headword": "𗞈",
+    "character_ids": [
+      "U17788"
+    ],
+    "part_of_speech": "noun"
+  },
+  {
+    "id": "lex-177A4",
+    "headword": "𗞤",
+    "character_ids": [
+      "U177A4"
+    ],
+    "part_of_speech": "noun"
+  },
+  {
+    "id": "lex-1763A",
+    "headword": "𗘺",
+    "character_ids": [
+      "U1763A"
+    ],
+    "part_of_speech": "transcription"
+  },
+  {
+    "id": "lex-1785D",
+    "headword": "𗡝",
+    "character_ids": [
+      "U1785D"
+    ],
+    "part_of_speech": "transcription"
+  },
+  {
+    "id": "lex-17730",
+    "headword": "𗜰",
+    "character_ids": [
+      "U17730"
+    ],
+    "part_of_speech": "transcription"
+  }
+]

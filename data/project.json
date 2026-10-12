@@ -1,0 +1,10 @@
+{
+  "id": "tangut-workbench",
+  "title": "西夏文开放研读台",
+  "version": "0.1.0",
+  "updated": "2026-10-12",
+  "repository": "https://github.com/ZJUZhiyuCai/tangut-workbench",
+  "unicode_version": "17.0.0",
+  "annotation_license": "CC-BY-4.0",
+  "editorial_note": "初始数据由 AI 辅助整理。source_checked 表示已对照所引字典原页，不表示人类专家复核或首次破译。未见既有译文不等于从未有人译过。"
+}

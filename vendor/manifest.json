@@ -1,0 +1,31 @@
+[
+  {
+    "path": "vendor/unicode/TangutSources-17.0.0.txt",
+    "url": "https://www.unicode.org/Public/17.0.0/ucd/TangutSources.txt",
+    "sha256": "4f5079d81395cc5e7264b1b05a6edb157e0451323e2c7cfabfe09c349e65df02"
+  },
+  {
+    "path": "licenses/Unicode-3.0.txt",
+    "url": "https://www.unicode.org/license.txt",
+    "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+  },
+  {
+    "path": "licenses/CC-BY-4.0.txt",
+    "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  },
+  {
+    "path": "web/assets/NotoSerifTangut-Regular.ttf",
+    "url": "https://github.com/notofonts/tangut/releases/download/NotoSerifTangut-v2.170/NotoSerifTangut-v2.170.zip",
+    "archive_member": "NotoSerifTangut/full/ttf/NotoSerifTangut-Regular.ttf",
+    "archive_sha256": "741ef7bca66790c51c5f2efea3c291f5a82cc2e3992d9413a020aec26dbd75b1",
+    "sha256": "76bca83da5b7f6bec404aa9357f6d206c0c097bcc32c2d3a38aa6a76d21a0eab"
+  },
+  {
+    "path": "licenses/OFL-NotoSerifTangut.txt",
+    "url": "https://github.com/notofonts/tangut/releases/download/NotoSerifTangut-v2.170/NotoSerifTangut-v2.170.zip",
+    "archive_member": "OFL.txt",
+    "archive_sha256": "741ef7bca66790c51c5f2efea3c291f5a82cc2e3992d9413a020aec26dbd75b1",
+    "sha256": "bd8b32c064be2225d55f878a689063c6f169ccd9e2792d7051f0d74cf4816f1b"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "unicode17",
+    "title": "The Unicode Standard 17.0.0: TangutSources.txt",
+    "author": "Unicode, Inc.",
+    "year": "2025",
+    "url": "https://www.unicode.org/Public/17.0.0/ucd/TangutSources.txt",
+    "kind": "standard",
+    "rights": "Unicode-3.0",
+    "redistribution": "bundled_with_license",
+    "note": "仅提供编码、字书编号和部首笔画索引，不提供词义。"
+  },
+  {
+    "id": "li2012",
+    "title": "简明夏汉字典",
+    "author": "李范文",
+    "year": "2012",
+    "url": "http://ccamc.co/tangut_xhzd.php?id=NDI2Nw&zi=8JeeiA&p=NTEz",
+    "kind": "dictionary",
+    "rights": "No redistribution grant established",
+    "redistribution": "reference_only",
+    "note": "第513页原图已核。仓库仅保存出处和简短事实性释义，不分发原图或整本字典。"
+  },
+  {
+    "id": "ccamc201",
+    "title": "CCAMC：L0201 字头，韩1493（卷3页3）",
+    "author": "古今文字集成",
+    "year": "n.d.",
+    "url": "http://ccamc.co/tangut.php?XHZDid=201",
+    "kind": "web_transcription",
+    "rights": "No redistribution grant established",
+    "redistribution": "reference_only",
+    "note": "只核网页转录；未核韩词典相应原页。"
+  },
+  {
+    "id": "ccamc4620",
+    "title": "CCAMC：L4620 字头，韩2034（卷3页295）",
+    "author": "古今文字集成",
+    "year": "n.d.",
+    "url": "http://ccamc.co/tangut.php?XHZDid=4620",
+    "kind": "web_transcription",
+    "rights": "No redistribution grant established",
+    "redistribution": "reference_only",
+    "note": "只核网页转录；未核韩词典相应原页。"
+  },
+  {
+    "id": "ccamc4305",
+    "title": "CCAMC：L4305 字头及嗣宗词例索引",
+    "author": "古今文字集成",
+    "year": "n.d.",
+    "url": "http://ccamc.co/tangut.php?XHZDid=4305",
+    "kind": "web_transcription",
+    "rights": "No redistribution grant established",
+    "redistribution": "reference_only",
+    "note": "嗣宗词例索引指韩词典卷3页367，不是写本位置。词例原页未核。"
+  },
+  {
+    "id": "nie2020",
+    "title": "A Unique Tangut Primary Reader: Brief Collection by Taizong kept in the IOM RAS",
+    "author": "Nie Hongyin",
+    "year": "2020",
+    "url": "https://doi.org/10.17816/wmo34968",
+    "kind": "article",
+    "rights": "CC-BY-NC-ND-4.0",
+    "redistribution": "reference_only",
+    "note": "Written Monuments of the Orient 6(1): 3–38。既刊部分译读是研究基线，不是本项目的新破译。未分发论文或扫描图。"
+  },
+  {
+    "id": "nie2021",
+    "title": "A Tangut Primary Reader. A Brief Collection by Taizong Kept at the IOM, RAS",
+    "author": "Nie Hongyin",
+    "year": "2021",
+    "url": "https://doi.org/10.17816/WMO72175",
+    "kind": "article",
+    "rights": "CC-BY-4.0",
+    "redistribution": "reference_only",
+    "note": "2020论文的俄文译本；没有补出本项目需要的末四叶图版。"
+  },
+  {
+    "id": "songshu29",
+    "title": "宋书·卷二十九·符瑞下",
+    "author": "沈约",
+    "year": "古籍",
+    "url": "https://zh.wikisource.org/wiki/宋書/卷29",
+    "kind": "classical_text",
+    "rights": "Ancient text; external edition not bundled",
+    "redistribution": "reference_only",
+    "note": "蓂荚典故的语境平行材料，不是《太宗择要文》汉文底本。"
+  },
+  {
+    "id": "yiwen4",
+    "title": "艺文类聚·卷四·岁时部下",
+    "author": "欧阳询等",
+    "year": "古籍",
+    "url": "https://zh.wikisource.org/wiki/藝文類聚_(四庫全書本)/卷004",
+    "kind": "classical_text",
+    "rights": "Ancient text; external edition not bundled",
+    "redistribution": "reference_only",
+    "note": "引《帝王世纪》的历草记述；只能作典故线索。"
+  },
+  {
+    "id": "jinshu49",
+    "title": "晋书·卷四十九·阮籍等传",
+    "author": "房玄龄等",
+    "year": "古籍",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷049",
+    "kind": "classical_text",
+    "rights": "Ancient text; external edition not bundled",
+    "redistribution": "reference_only",
+    "note": "阮籍与阮咸的母丧叙事需要分别核对；情节相似不证明写本人名。"
+  },
+  {
+    "id": "ccamc4268",
+    "title": "CCAMC：L4268 字头，韩1855（卷3页193）",
+    "author": "古今文字集成",
+    "year": "n.d.",
+    "url": "http://ccamc.co/tangut.php?XHZDid=4268",
+    "kind": "web_transcription",
+    "rights": "No redistribution grant established",
+    "redistribution": "reference_only",
+    "note": "网页转录另列活、生、芽，未核韩词典原页，未收入已核词义。"
+  },
+  {
+    "id": "catalogue2024",
+    "title": "存世西夏及黑水城文献总目录：太宗题名检索",
+    "author": "张恩辅编目录；古今文字集成检索页",
+    "year": "2024",
+    "url": "http://ccamc.co/tangut_ms.php?mode=title&book=0&title=%E5%A4%AA%E5%AE%97",
+    "kind": "catalogue",
+    "rights": "No redistribution grant established",
+    "redistribution": "reference_only",
+    "note": "只核检索页；未直接核作者原始表。"
+  },
+  {
+    "id": "idp3494",
+    "title": "British Library Or.12380/3494",
+    "author": "International Dunhuang Programme",
+    "year": "n.d.",
+    "url": "https://idp.bl.uk/collection/7F9968C9D08E48279D9EB3D5C7C76AA8/",
+    "kind": "collection_record",
+    "rights": "Reference only",
+    "redistribution": "reference_only",
+    "note": "馆藏编号可核；本次没有取得可用写本图像，题名归属未由此独立确认。"
+  },
+  {
+    "id": "west2018",
+    "title": "一件新发现的西夏语言文献初探（作者公开稿）",
+    "author": "魏安著；麻晓芳译",
+    "year": "2018",
+    "url": "https://www.babelstone.co.uk/Publications/XixiaYanjiu_2018_02.pdf",
+    "kind": "article",
+    "rights": "No redistribution grant established",
+    "redistribution": "reference_only",
+    "note": "引作者公开稿PDF页5–9表5；是不同写本、不同书手的草字参照，不分发原文。"
+  }
+]

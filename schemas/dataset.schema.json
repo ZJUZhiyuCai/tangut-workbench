@@ -1,0 +1,848 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZJUZhiyuCai/tangut-workbench/blob/main/schemas/dataset.schema.json",
+  "type": "object",
+  "properties": {
+    "project": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9_-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "updated": {
+          "type": "string",
+          "minLength": 1
+        },
+        "repository": {
+          "type": "string",
+          "pattern": "^https?://[^\\s]+$"
+        },
+        "unicode_version": {
+          "enum": [
+            "17.0.0"
+          ]
+        },
+        "annotation_license": {
+          "enum": [
+            "CC-BY-4.0"
+          ]
+        },
+        "editorial_note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "version",
+        "updated",
+        "repository",
+        "unicode_version",
+        "annotation_license",
+        "editorial_note"
+      ],
+      "additionalProperties": false
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^U[0-9A-F]{5}$"
+          },
+          "codepoint": {
+            "type": "string",
+            "pattern": "^U\\+[0-9A-F]{5}$"
+          },
+          "character": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1
+          },
+          "source_id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "merged_sources": {
+            "type": "string",
+            "minLength": 1
+          },
+          "radical_strokes": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "codepoint",
+          "character",
+          "source_id",
+          "merged_sources",
+          "radical_strokes"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "author": {
+            "type": "string",
+            "minLength": 1
+          },
+          "year": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https?://[^\\s]+$"
+          },
+          "kind": {
+            "enum": [
+              "standard",
+              "dictionary",
+              "web_transcription",
+              "article",
+              "classical_text",
+              "catalogue",
+              "collection_record"
+            ]
+          },
+          "rights": {
+            "type": "string",
+            "minLength": 1
+          },
+          "redistribution": {
+            "enum": [
+              "reference_only",
+              "bundled_with_license"
+            ]
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "author",
+          "year",
+          "url",
+          "kind",
+          "rights",
+          "redistribution",
+          "note"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "headword": {
+            "type": "string",
+            "minLength": 1
+          },
+          "character_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]+$"
+            },
+            "minItems": 1
+          },
+          "part_of_speech": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "headword",
+          "character_ids",
+          "part_of_speech"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "senses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "entry_id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "gloss_zh": {
+            "type": "string",
+            "minLength": 1
+          },
+          "gloss_en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "source_checked",
+              "source_reported",
+              "proposed"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9_-]+$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "dictionary_scan",
+                    "published_edition",
+                    "web_transcription",
+                    "catalogue"
+                  ]
+                },
+                "inspection": {
+                  "enum": [
+                    "direct",
+                    "transcription_only"
+                  ]
+                },
+                "accessed": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                }
+              },
+              "required": [
+                "source_id",
+                "locator",
+                "kind",
+                "inspection",
+                "accessed"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          },
+          "independent_reviews": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "reviewer": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "record_url": {
+                  "type": "string",
+                  "pattern": "^https?://[^\\s]+$"
+                },
+                "date": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "reviewer",
+                "record_url",
+                "date"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0
+          },
+          "contribution": {
+            "type": "string",
+            "minLength": 1
+          },
+          "license": {
+            "enum": [
+              "CC-BY-4.0"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "entry_id",
+          "gloss_zh",
+          "gloss_en",
+          "status",
+          "evidence",
+          "note",
+          "independent_reviews",
+          "contribution",
+          "license"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "shelfmark": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "in_progress",
+              "complete"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9_-]+$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "dictionary_scan",
+                    "published_edition",
+                    "web_transcription",
+                    "catalogue"
+                  ]
+                },
+                "inspection": {
+                  "enum": [
+                    "direct",
+                    "transcription_only"
+                  ]
+                },
+                "accessed": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                }
+              },
+              "required": [
+                "source_id",
+                "locator",
+                "kind",
+                "inspection",
+                "accessed"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "license": {
+            "enum": [
+              "CC-BY-4.0"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "shelfmark",
+          "description",
+          "status",
+          "evidence",
+          "license"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "passages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "document_id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "locus": {
+            "type": "string",
+            "minLength": 1
+          },
+          "transcription": {
+            "type": "string",
+            "minLength": 1
+          },
+          "transcription_status": {
+            "enum": [
+              "published_transcription",
+              "proposed",
+              "adopted"
+            ]
+          },
+          "translation_zh": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "translation_status": {
+            "enum": [
+              "untranslated",
+              "proposed",
+              "translated"
+            ]
+          },
+          "novelty": {
+            "enum": [
+              "alignment_only",
+              "inherited",
+              "new_translation"
+            ]
+          },
+          "image_reference": {
+            "type": "string",
+            "minLength": 1
+          },
+          "image_dimensions": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "type": "integer",
+                "minimum": 1
+              }
+            ],
+            "items": false,
+            "minItems": 2
+          },
+          "coordinate_system": {
+            "enum": [
+              "pixels; origin upper left; [left,top,right,bottom)"
+            ]
+          },
+          "box": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "integer",
+                "minimum": 0
+              },
+              {
+                "type": "integer",
+                "minimum": 0
+              },
+              {
+                "type": "integer",
+                "minimum": 0
+              },
+              {
+                "type": "integer",
+                "minimum": 0
+              }
+            ],
+            "items": false,
+            "minItems": 4
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9_-]+$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "dictionary_scan",
+                    "published_edition",
+                    "web_transcription",
+                    "catalogue"
+                  ]
+                },
+                "inspection": {
+                  "enum": [
+                    "direct",
+                    "transcription_only"
+                  ]
+                },
+                "accessed": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                }
+              },
+              "required": [
+                "source_id",
+                "locator",
+                "kind",
+                "inspection",
+                "accessed"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "license": {
+            "enum": [
+              "CC-BY-4.0"
+            ]
+          },
+          "unit_type": {
+            "enum": [
+              "alignment_window",
+              "passage"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "document_id",
+          "locus",
+          "transcription",
+          "transcription_status",
+          "translation_zh",
+          "translation_status",
+          "novelty",
+          "image_reference",
+          "image_dimensions",
+          "coordinate_system",
+          "box",
+          "note",
+          "evidence",
+          "license",
+          "unit_type"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "document_id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "locus": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "unread",
+              "resolved"
+            ]
+          },
+          "observation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "next_test": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9_-]+$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "dictionary_scan",
+                    "published_edition",
+                    "web_transcription",
+                    "catalogue"
+                  ]
+                },
+                "inspection": {
+                  "enum": [
+                    "direct",
+                    "transcription_only"
+                  ]
+                },
+                "accessed": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                }
+              },
+              "required": [
+                "source_id",
+                "locator",
+                "kind",
+                "inspection",
+                "accessed"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "license": {
+            "enum": [
+              "CC-BY-4.0"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "document_id",
+          "locus",
+          "status",
+          "observation",
+          "next_test",
+          "evidence",
+          "license"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "document_id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "claim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "level": {
+            "type": "string",
+            "minLength": 1
+          },
+          "existing_reading": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rationale": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "unresolved": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "manuscript_text_changed": {
+            "const": false
+          },
+          "status": {
+            "enum": [
+              "proposed",
+              "rejected",
+              "withdrawn"
+            ]
+          },
+          "related_character_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]+$"
+            },
+            "minItems": 0
+          },
+          "related_sense_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]+$"
+            },
+            "minItems": 0
+          },
+          "gap_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]+$"
+            },
+            "minItems": 0
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9_-]+$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "dictionary_scan",
+                    "published_edition",
+                    "web_transcription",
+                    "catalogue"
+                  ]
+                },
+                "inspection": {
+                  "enum": [
+                    "direct",
+                    "transcription_only"
+                  ]
+                },
+                "accessed": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                }
+              },
+              "required": [
+                "source_id",
+                "locator",
+                "kind",
+                "inspection",
+                "accessed"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "accepted": {
+            "const": false
+          },
+          "license": {
+            "enum": [
+              "CC-BY-4.0"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "document_id",
+          "claim",
+          "level",
+          "rationale",
+          "unresolved",
+          "manuscript_text_changed",
+          "status",
+          "related_character_ids",
+          "related_sense_ids",
+          "gap_ids",
+          "evidence",
+          "accepted",
+          "license"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "project",
+    "characters",
+    "sources",
+    "entries",
+    "senses",
+    "documents",
+    "passages",
+    "gaps",
+    "hypotheses"
+  ],
+  "additionalProperties": false
+}

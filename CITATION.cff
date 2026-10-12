@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the exact release or commit, and also cite each record's original sources."
+type: software
+title: "Tangut Workbench: Source-linked Tangut Lexicography and Manuscript Research"
+authors:
+  - name: "Tangut Workbench contributors"
+version: 0.1.0
+date-released: "2026-10-12"
+repository-code: "https://github.com/ZJUZhiyuCai/tangut-workbench"
+url: "https://zjuzhiyucai.github.io/tangut-workbench/"
+license: MIT
+abstract: >-
+  An open research workspace connecting Unicode Tangut characters, source-cited
+  dictionary senses, manuscript alignment records and explicitly unadopted
+  hypotheses. Software is MIT-licensed; original annotations and documentation
+  are CC BY 4.0. Unicode data and Noto fonts retain their upstream licenses.
+  Initial records are AI-assisted and have not received independent expert review.
+keywords:
+  - Tangut
+  - lexicography
+  - digital humanities
+  - CLDF
